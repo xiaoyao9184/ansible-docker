@@ -36,6 +36,7 @@ centos7:
 #   script:
 #     - molecule test --scenario-name centos8
 
+# python 3.4 version too old
 # debian8:
 #   stage: molecule-test
 #   script:

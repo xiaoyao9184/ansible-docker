@@ -15,6 +15,7 @@ jobs:
         molecule_distro:
           - centos7
           # - centos8
+          # python 3.4 version too old
           # - debian8
           - debian9
           - debian10

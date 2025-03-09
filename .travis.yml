@@ -13,6 +13,7 @@ env:
   jobs:
     - molecule_distro=centos7
     # - molecule_distro=centos8
+    # python 3.4 version too old
     # - molecule_distro=debian8
     - molecule_distro=debian9
     - molecule_distro=debian10
