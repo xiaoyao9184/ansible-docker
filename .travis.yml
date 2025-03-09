@@ -12,7 +12,7 @@ env:
     - ANSIBLE_CONFIG=./molecule/ansible.old-galaxy.cfg
   jobs:
     - molecule_distro=centos7
-    # - molecule_distro=centos8
+    - molecule_distro=centos8
     # python 3.4 version too old
     # - molecule_distro=debian8
     - molecule_distro=debian9
