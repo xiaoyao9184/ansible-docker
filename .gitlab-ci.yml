@@ -52,6 +52,7 @@ debian10:
   script:
     - molecule test --scenario-name debian10
 
+# `jrei/systemd-fedora:latest` rolling release image too new for this
 # fedora:
 #   stage: molecule-test
 #   script:
