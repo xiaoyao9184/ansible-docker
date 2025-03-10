@@ -25,6 +25,7 @@ mkdocs-material = "^7.3.0"
 # fix docker api not supported
 # see https://forums.docker.com/t/error-while-fetching-server-api-version-not-supported-url-scheme-http-docker/141942/4
 requests = "2.31.0"
+pre-commit = "4.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
